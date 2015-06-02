@@ -1,0 +1,47 @@
+body {
+	background-color: #aca9a5;
+}
+
+div {
+	background-color:#e2e1df;
+	width:500px;
+	padding:25px;
+	border:10px;
+	margin:auto;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size:50px;
+	text-align:center;
+}
+
+img{
+	margin:auto;
+	text-align:center;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	text-align:center;
+}
+
+ul {
+	font-family: Arial, sans-serif;
+	text-align:center;
+	list-style-type: none;
+}
+
+a{
+	font-family: Arial, sans-serif;
+	text-decoration:none;
+	cursor: auto;
+}
+
+#slogan {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-style:italic;
+	font-weight: normal;
+	text-align:center;
+}
