@@ -3,22 +3,35 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-.wrapper {
-	background-color:#f5f5f5;
-	width:670px;
-	padding:25px;
-	border:10px;
-	margin:0 auto;
-}
-
 h1 {
-	font-family: 'Francois One', sans-serif;
-	font-size:50px;
+	font-family: Avenir, sans-serif;
+	font-size: 3em;
 	text-align:center;
 }
+
+nav {
+
+}
+
+li {
+	display: inline;
+	padding: 6%;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
 
 p {
-	text-align:center;
+	text-align: left;
+	width: 80%;
+	height: auto;
+	font-size: 1.2em;
+	padding: 1.2em 2em;
+	margin: auto;
 }
 
 ul {
@@ -29,8 +42,19 @@ ul {
 a{
 	text-decoration:none;
 	cursor: auto;
-	
+}
 
+footer {
+	text-align: center;
+}
+
+.wrapper {
+	background-color:#f5f5f5;
+	width:60%;
+	height: auto;
+	padding:25px;
+	border:10px;
+	margin:0 auto;
 }
 
 #slogan {
