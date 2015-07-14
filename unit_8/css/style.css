@@ -1,33 +1,21 @@
+
+/* Global Styles */
+
 body {
-	background-color: #0d204a;
-	font-family: Arial, sans-serif;
-}
-
-h1 {
-	font-family: Avenir, sans-serif;
-	font-size: 3em;
-	text-align:center;
-}
-
-nav {
-
-}
-
-li {
-	display: inline;
-	padding: 6%;
-	margin: 0 auto;
+	background:url(http://www.thiel.edu/assets/css/images/textured-bkg.jpg) repeat;
+	font-family: Times, serif;
 }
 
 img {
 	display: block;
 	margin: 0 auto;
+	width: 80%;
+	height: 40%;
 }
 
 
 p {
-	text-align: left;
-	width: 80%;
+	width: 70%;
 	height: auto;
 	font-size: 1.2em;
 	padding: 1.2em 2em;
@@ -58,9 +46,43 @@ footer {
 }
 
 #slogan {
-	font-family: Helvetica, sans-serif;
-	font-size: 24px;
+	font-family: Avenir, sans-serif;
+	font-size: 2em;
 	font-style:italic;
 	font-weight: normal;
 	text-align:center;
 }
+
+h1 {
+	font-family: Avenir, sans-serif;
+	font-size: 3em;
+	text-align:center;
+}
+
+nav {
+
+}
+
+/* Nav Styles */
+
+.main-nav li {
+	font-size: 1.4em;
+	display: inline;
+	padding: 0 6%;
+	margin: 0 auto;
+	border-right: 1px solid #000;
+}
+
+.main-nav li.last {
+	border: none;
+}
+
+.main-nav a:link, .main-nav a:visited {
+	color: #0d204a;
+}
+
+.main-nav a:hover {
+	color: #998643;
+}
+
+
