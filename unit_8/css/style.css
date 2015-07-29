@@ -6,13 +6,26 @@ body {
 	font-family: Times, serif;
 }
 
+h1 {
+	font-family: Avenir, sans-serif;
+	font-size: 3em;
+	text-align:center;
+}
+
+h3 {
+	font-family: Avenir, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin: .5em 0 0 0;
+	color: #998643;
+}
 img {
 	display: block;
 	margin: 0 auto;
-	width: 80%;
-	height: 40%;
+	width: 75%;
+	height: 30%;
+	box-shadow: 0 0 10px #ccc;
 }
-
 
 p {
 	width: 70%;
@@ -24,6 +37,8 @@ p {
 
 ul {
 	text-align:center;
+	padding: 0;
+	margin: 16px 0 25px 0;
 	list-style-type: none;
 }
 
@@ -45,22 +60,27 @@ footer {
 	margin:0 auto;
 }
 
+.col_1 {
+	width: 46%;
+	margin: 0 1em;
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 #slogan {
 	font-family: Avenir, sans-serif;
 	font-size: 2em;
 	font-style:italic;
 	font-weight: normal;
 	text-align:center;
-}
-
-h1 {
-	font-family: Avenir, sans-serif;
-	font-size: 3em;
-	text-align:center;
-}
-
-nav {
-
 }
 
 /* Nav Styles */
@@ -85,4 +105,61 @@ nav {
 	color: #998643;
 }
 
+/* Media Queries */
 
+@media only screen and (max-width: 1392px) {
+
+h1 {
+	font-size: 2em;
+}
+
+.main-nav li {
+	font-size: 1.2em;
+}
+
+.col_1 {
+	margin: 0 .5em;
+}
+
+#slogan {
+	font-size: 1.5em;
+}
+}
+
+@media only screen and (max-width: 980px) {
+
+h1 {
+	font-size: 1.8em;
+}
+
+p {
+	font-size: 1em;
+}
+
+.main-nav li {
+	font-size: 1em;
+}
+
+.col_1 {
+	width: 75%;
+	margin: 0 auto;
+	float: none;
+}
+
+#slogan {
+	font-size: 1.2em;
+}
+}
+
+@media only screen and (max-width: 683px) {
+
+h1 {
+	font-size: 1.2em;
+}	
+
+.col_1 {
+	width: 75%;
+	margin: 0 auto;
+	float: none;
+}
+}
